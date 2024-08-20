@@ -1,0 +1,25 @@
+
+body {
+    background-image: linear-gradient(to right, rgba(128, 128, 128), rgb(128, 128, 128, 0.5));
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+#grid-button {
+    font-weight: bolder;
+    border: none;
+    box-shadow: 2px, 2px, black;
+    padding: 5px;
+    background-color: whitesmoke;
+    color: black;
+    margin-bottom: 4px;
+    border-radius: 5%;
+
+}
+#grid-button:hover {
+    cursor: pointer;
+    background-color: rgb(53, 50, 50);
+    color: whitesmoke;
+}
